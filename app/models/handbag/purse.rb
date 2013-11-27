@@ -15,7 +15,7 @@ module Handbag
     validates :token,
               :allow_nil => false,
               :uniqueness => true, 
-              :length => {:allow_nil => true, :minimum => 36, :maximum => 255}
+              :length => {:allow_nil => false, :minimum => 36, :maximum => 255}
 
     # Ensure that this purse is actively associated with a purseholder or has a scriptive token
     validate do
