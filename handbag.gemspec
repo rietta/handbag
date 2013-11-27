@@ -18,6 +18,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency "rails", "~> 4.0.1"
   s.add_dependency "uuidtools", "~> 2.1.4"
-
+  
+  s.add_development_dependency 'combustion', '~> 0.5.1'
   s.add_development_dependency "activerecord-jdbcsqlite3-adapter"
 end
