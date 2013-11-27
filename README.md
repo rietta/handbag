@@ -34,6 +34,9 @@ has_one :purse, :class => "Handbag::Purse", :as => :purseholder, :dependent => :
 
 ### 
 
+# Testing the Engine
+
+This article on [Rails Engine Testing with RSpec, Capybara, and FactoryGirl](http://viget.com/extend/rails-engine-testing-with-rspec-capybara-and-factorygirl) was helpful.
 
 ## License
 Copyright 2013 Rietta Inc.
