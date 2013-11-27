@@ -16,7 +16,7 @@ In other words, it makes anonymous user stories easy to implement!
 - A User can be destroyed and leave its anonymous possessions behind
 
 ### Anonymous Purses
-A *Purse* that does not belong to a *Purse Holder* is called an *Anonymous Purse*. It can own possessions in the system like a user would own possessions. It is identified by a random UUID and is particular browser session through an encrypted cookie.
+A *Purse* that does not belong to a *Purse Holder* is called an *Anonymous Purse*. It can own possessions in the system like a user would own possessions. It is identified by a random [UUID](https://en.wikipedia.org/wiki/Universally_unique_identifier) and is particular browser session through an encrypted cookie.
 
 ### Every Visitor has a Purse
 By using the Purse pattern, you ensure that every visitor has a *Purse*. A registered *User* with an account always has the same *Purse*. A visitor with an active *Anonymous Purse* will have the same one until the cookie is cleared or expires and a new *Visitor* will be automatically given an *Anonymous Purse*.  
