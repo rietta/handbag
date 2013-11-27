@@ -28,7 +28,9 @@ By using the Purse pattern, you ensure that every visitor has a *Purse*. A regis
 
 ### In Your User Classes
 
-`Write this.`
+```ruby
+has_one :purse, :class => "Handbag::Purse", :as => :purseholder, :dependent => :destroy, :autosave => true
+```
 
 ### 
 
