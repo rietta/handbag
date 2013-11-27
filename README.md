@@ -15,6 +15,24 @@ In other words, it makes anonymous user stories easy to implement!
 - A Purse can start out belonging to no user at all (an Anonymous purse) and then later be transferred to a User
 - A User can be destroyed and leave its anonymous possessions behind
 
+### Anonymous Purses
+A *Purse* that does not belong to a *Purse Holder* is called an *Anonymous Purse*. It can own possessions in the system like a user would own possessions. It is identified by a random UUID and is particular browser session through an encrypted cookie.
+
+### Every Visitor has a Purse
+By using the Purse pattern, you ensure that every visitor has a *Purse*. A registered *User* with an account always has the same *Purse*. A visitor with an active *Anonymous Purse* will have the same one until the cookie is cleared or expires and a new *Visitor* will be automatically given an *Anonymous Purse*.  
+
+## Using the Handbag
+### Installation
+
+`Write this.`
+
+### In Your User Classes
+
+`Write this.`
+
+### 
+
+
 ## License
 Copyright 2013 Rietta Inc.
 
