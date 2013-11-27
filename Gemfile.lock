@@ -125,9 +125,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  actionpack
+  activerecord
   annotate
   capybara
   combustion (~> 0.5.1)
   factory_girl_rails
   handbag!
   rspec-rails
+  sprockets

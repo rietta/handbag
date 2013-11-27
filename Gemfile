@@ -15,3 +15,9 @@ gemspec
 
 # See https://github.com/pat/combustion
 gem 'combustion', '~> 0.5.1', :group => :test
+
+group :test do
+  gem 'activerecord'
+  gem 'actionpack' # action_controller, action_view
+  gem 'sprockets'
+end

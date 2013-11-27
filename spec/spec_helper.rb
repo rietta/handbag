@@ -1,8 +1,23 @@
 ENV['RAILS_ENV'] ||= 'test'
 require File.expand_path("../dummy/config/environment.rb",  __FILE__)
+
+require 'bundler/setup'
+
+require 'combustion'
+require 'capybara/rspec'
+
+Combustion.initialize! :all
+
 require 'rspec/rails'
+require 'capybara/rails'
+
+RSpec.configure do |config|
+  config.use_transactional_fixtures = true
+end
+
 require 'rspec/autorun'
 require 'factory_girl_rails'
+
 Rails.backtrace_cleaner.remove_silencers!
 # Load support files
 Dir["#{File.dirname(__FILE__)}/support/**/*.rb"].each { |f| require f }
