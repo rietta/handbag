@@ -1,3 +1,6 @@
+# I use Jruby, but maybe others would prefer not to
+.ruby-version
+
 .bundle/
 log/*.log
 pkg/
@@ -6,3 +9,4 @@ test/dummy/db/*.sqlite3-journal
 test/dummy/log/*.log
 test/dummy/tmp/
 test/dummy/.sass-cache
+
