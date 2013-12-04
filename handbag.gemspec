@@ -12,17 +12,17 @@ Gem::Specification.new do |s|
   s.homepage    = "https://github.com/rietta/handbag"
   s.summary     = "User has_many :possessions, through: purse"
   s.description = "Handbag is a Ruby implementation of the Purse pattern, which is intended to enable robust implementations of anonymous user and access control that is decoupled from user accounts."
-
+ 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["spec/**/*"]
 
-  s.add_dependency "rails", "~> 4.0.1"
+  s.add_dependency "rails", ">= 3.2"
   s.add_dependency "uuidtools", "~> 2.1.4"
-  
-  s.add_development_dependency 'combustion', '~> 0.5.1'
-  s.add_development_dependency 'annotate'
+
   s.add_development_dependency 'rspec-rails'
   s.add_development_dependency 'capybara'
   s.add_development_dependency 'factory_girl_rails'
-  
+
+  # This is just needed when testing in JRuby
+  # s.add_development_dependency "activerecord-jdbcsqlite3-adapter"
 end

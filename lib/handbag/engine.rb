@@ -1,12 +1,11 @@
 module Handbag
   class Engine < ::Rails::Engine
     isolate_namespace Handbag
-    
     config.generators do |g|
-         g.test_framework      :rspec,        :fixture => false
-         g.fixture_replacement :factory_girl, :dir => 'spec/factories'
-         g.assets false
-         g.helper false
+      g.test_framework      :rspec,        :fixture => false
+      g.fixture_replacement :factory_girl, :dir => 'spec/factories'
+      g.assets false
+      g.helper false
     end
   end
 end
