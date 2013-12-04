@@ -21,3 +21,11 @@ group :test do
   gem 'actionpack' # action_controller, action_view
   gem 'sprockets'
 end
+
+# If this platform is JRuby, install these gems
+platforms :jruby do
+  gem 'activerecord-jdbcsqlite3-adapter', :require => false
+end
+# Else, use these instead
+platforms :ruby do
+end
