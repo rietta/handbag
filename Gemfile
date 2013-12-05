@@ -20,3 +20,8 @@ end
 # Else, use these instead
 platforms :ruby do
 end
+
+group :development do
+  gem 'annotate'
+  gem 'pry'
+end
