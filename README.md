@@ -1,4 +1,5 @@
 [![Dependency Status](https://gemnasium.com/rietta/handbag.png)](https://gemnasium.com/rietta/handbag)
+[![Code Climate](https://codeclimate.com/github/rietta/handbag.png)](https://codeclimate.com/github/rietta/handbag)
 
 # Handbag
 
