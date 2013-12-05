@@ -1,3 +1,5 @@
+[![Dependency Status](https://gemnasium.com/rietta/handbag.png)](https://gemnasium.com/rietta/handbag)
+
 # Handbag
 
 ## NOTICE: As of December 4, 2013, This is pre-release software that is available as open source.
