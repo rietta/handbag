@@ -1,4 +1,7 @@
 # Handbag
+
+## NOTICE: As of December 4, 2013, This is pre-release software that is available as open source.
+
 ## User has_many :possessions, through: purse
 
 Handbag is a Ruby implementation of the Purse pattern, which is intended to enable robust implementations of anonymous user and access control that is decoupled from user accounts.
