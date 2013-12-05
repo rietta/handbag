@@ -24,4 +24,6 @@ end
 group :development do
   gem 'annotate'
   gem 'pry'
+  gem 'brakeman'
+  gem 'simplecov', :require => false
 end

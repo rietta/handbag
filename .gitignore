@@ -12,3 +12,5 @@ test/dummy/.sass-cache
 
 spec/dummy/log/development.log
 spec/dummy/log/test.log
+
+coverage/
